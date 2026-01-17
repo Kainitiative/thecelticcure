@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet The Celtic Cure team - Alison (hair stylist), Lauren (makeup artist), and Shane (tattoo artist) in Gorey, Wexford.">
+    <meta name="keywords" content="hair stylist Gorey, makeup artist Wexford, tattoo artist Gorey, The Celtic Cure team">
+    <title>Our Team | The Celtic Cure - Wexford's Premier Salon</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/webp" href="../assets/images/logo.webp">
+    <link rel="stylesheet" href="/alt/assets/css/styles.css">
+    
+</head>
+<body>
+<<<<<<< HEAD
+=======
+    <!-- Theme Toggle -->
+    <div class="theme-toggle-wrapper">
+        <span class="theme-toggle-label">Theme</span>
+        <label class="theme-toggle">
+            <input type="checkbox" id="themeToggle">
+            <span class="toggle-slider">
+                <span class="toggle-icons">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </span>
+            </span>
+        </label>
+    </div>
+    <script>
+        (function() {
+            try {
+                var cb = document.getElementById('themeToggle');
+                if (cb) cb.checked = (localStorage.getItem('celtic-cure-theme') === 'bright');
+            } catch(e) {}
+        })();
+    </script>
+
+>>>>>>> 3b5e312 (Improve theme toggle functionality and persistence across all pages)
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="../assets/images/logo.webp" alt="The Celtic Cure" class="logo-image">
+            </a>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="aesthetics.html" class="nav-link">Aesthetics</a></li>
+                <li><a href="spa.html" class="nav-link">Spa & Facials</a></li>
+                <li><a href="team.html" class="nav-link active">Our Team</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="/" class="nav-link version-link"><i class="fas fa-moon"></i> Classic Version</a></li>
+                <li class="nav-cta">
+                    <a href="https://book.heygoldie.com/The-Celtic-Cure-Aesthetics-and-beauty" target="_blank" class="btn btn-primary">Book Now</a>
+                </li>
+            </ul>
+            
+            <div class="nav-social">
+                <a href="https://www.facebook.com/thecelticcure" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/thecelticcure" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@thecelticcure.ie" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Meet Our Team</h1>
+            <p>Talented professionals dedicated to making you look and feel your best</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <!-- Alison - Hair Stylist -->
+            <div class="team-member animate-on-scroll" id="alison">
+                <div class="team-member-header">
+                    <div class="team-member-image">
+                        <img src="../assets/images/alison-profile.jpeg" alt="Alison - Hair Stylist" loading="lazy">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>Alison</h3>
+                        <p class="team-role">Hair Stylist</p>
+                        <p>With years of experience in the industry, Alison specializes in creating stunning hair transformations. From precision cuts to beautiful colour work and extensions, she brings passion and expertise to every client.</p>
+                        <div class="team-social">
+                            <a href="https://www.instagram.com/alistylistgorey" target="_blank">
+                                <i class="fab fa-instagram"></i> @alistylistgorey
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-gallery">
+                    <h4><i class="fas fa-images"></i> Recent Work</h4>
+                    <div class="swipe-gallery">
+                        <div class="swipe-gallery-track">
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/hair-gallery-1.jpeg" alt="Hair styling work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/hair-gallery-2.jpeg" alt="Hair styling work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/hair-gallery-3.jpeg" alt="Hair styling work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/hair-gallery-4.jpeg" alt="Hair styling work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/hair-gallery-5.jpeg" alt="Hair styling work" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="gallery-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                        <button class="gallery-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Lauren - Makeup Artist -->
+            <div class="team-member animate-on-scroll" id="lauren">
+                <div class="team-member-header">
+                    <div class="team-member-image">
+                        <img src="../assets/images/lauren-profile.jpeg" alt="Lauren - Makeup Artist" loading="lazy">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>Lauren</h3>
+                        <p class="team-role">Makeup Artist & Brow Specialist</p>
+                        <p>Lauren is a talented makeup artist specializing in bridal, special occasion, and everyday looks. She's also an expert in brow shaping, lamination, and lash services, helping you achieve the perfect frame for your face.</p>
+                        <div class="team-social">
+                            <a href="https://www.instagram.com/lauren___makeup" target="_blank">
+                                <i class="fab fa-instagram"></i> @lauren___makeup
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-gallery">
+                    <h4><i class="fas fa-images"></i> Recent Work</h4>
+                    <div class="swipe-gallery">
+                        <div class="swipe-gallery-track">
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/makeup-gallery-1.jpeg" alt="Makeup work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/makeup-gallery-2.jpeg" alt="Makeup work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/makeup-gallery-3.jpeg" alt="Makeup work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/makeup-gallery-4.jpeg" alt="Makeup work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/makeup-gallery-5.jpeg" alt="Makeup work" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="gallery-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                        <button class="gallery-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Shane - Tattoo Artist -->
+            <div class="team-member animate-on-scroll" id="shane">
+                <div class="team-member-header">
+                    <div class="team-member-image">
+                        <img src="../assets/images/shane-profile.jpeg" alt="Shane Michael James - Tattoo Artist" loading="lazy">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>Shane Michael James</h3>
+                        <p class="team-role">Tattoo Artist</p>
+                        <p>Shane is a skilled tattoo artist with a passion for creating unique, custom designs. Working in a professional, safe environment, he specializes in various styles from fine line work to bold traditional pieces.</p>
+                        <div class="team-social">
+                            <a href="https://www.instagram.com/shanemichaeljamestattoos" target="_blank">
+                                <i class="fab fa-instagram"></i> @shanemichaeljamestattoos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-gallery">
+                    <h4><i class="fas fa-images"></i> Portfolio</h4>
+                    <div class="swipe-gallery">
+                        <div class="swipe-gallery-track">
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/tattoo-gallery-1.jpeg" alt="Tattoo work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/tattoo-gallery-2.jpeg" alt="Tattoo work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/tattoo-gallery-3.jpeg" alt="Tattoo work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/tattoo-gallery-4.jpeg" alt="Tattoo work" loading="lazy">
+                            </div>
+                            <div class="swipe-gallery-item">
+                                <img src="../assets/images/tattoo-gallery-5.jpeg" alt="Tattoo work" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="gallery-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                        <button class="gallery-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking CTA -->
+    <section class="booking-cta">
+        <div class="container">
+            <h2>Book With Our Team</h2>
+            <p>Let our talented professionals transform your look</p>
+            <a href="https://book.heygoldie.com/The-Celtic-Cure-Aesthetics-and-beauty" target="_blank" class="btn btn-lg">Book Your Appointment</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="../assets/images/logo.webp" alt="The Celtic Cure" class="logo-image">
+                    <p>Wexford's premier luxury beauty hub blending modern trends with timeless service.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/thecelticcure" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/thecelticcure" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@thecelticcure.ie" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/353851371990" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="aesthetics.html">Aesthetics</a></li>
+                        <li><a href="spa.html">Spa & Facials</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li>Japanese Head Spa</li>
+                        <li>Luxury Facials</li>
+                        <li>Dermal Fillers</li>
+                        <li>Anti-Wrinkle Treatments</li>
+                        <li>Hair Styling</li>
+                        <li>Tattoo Artistry</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Celtic Cure. All rights reserved. | Main Street, Gorey, Co. Wexford, Y25 C6X2</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/alt/assets/js/main.js"></script>
+</body>
+</html>

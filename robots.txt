@@ -1,0 +1,11 @@
+# robots.txt for The Celtic Cure
+# https://www.thecelticcure.ie
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.thecelticcure.ie/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
